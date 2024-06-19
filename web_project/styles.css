@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section {
+    border: 1px solid #000;
+    /* width: 100%; */
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-image: url('images/background.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    text-align: center;
+}
+
+.list .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    /* border-radius: 15px; */
+}
+
+button {
+    width: 48%;
+    /* padding: 20px; */
+    height: 150px; /* 确保按钮有固定的高度 */
+    padding: 0; /* 清除内边距 */
+    border-radius: 15px;
+    background-image: url('images/botten.png'); /* 设置背景图片路径 */
+    background-size: cover; /* 图片尺寸适应按钮大小 */
+    background-repeat: no-repeat; /* 禁止背景图片重复 */
+    background-color: transparent; /* 清除背景颜色 */
+    border: none; /* 移除边框 */
+    cursor: pointer; /* 鼠标指针样式设为手型 */
+    font-size: 10px; /* 设置字体大小为16像素 */
+    color: #07000080; 
+    text-align: center;
+    display: flex; /* 使用Flexbox布局 */
+    align-items: center; /* 垂直居中对齐 */
+    justify-content: center; /* 水平居中对齐 */
+    outline: none; /* 移除默认的焦点样式 */
+    /* transition: background-size 0.3s, background-color 0.3s; 添加过渡效果 */
+}
+
+button:hover {
+    /* background-color: #aaa; */
+    /* background-color: rgba(170, 170, 170, 0.8); 设置悬停时的背景颜色，增加透明度 */
+    background-size: 110%; /* 增加背景图片的尺寸 */
+    
+}
+
+button:focus {
+    /* box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); 自定义焦点样式，设置为3px的阴影 */
+}
